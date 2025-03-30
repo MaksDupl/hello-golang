@@ -1,8 +1,5 @@
 name: golang-pipeline
 on: push
-permissions:
-  contents: read
-  packages: write
 jobs:
   test:
     runs-on: ubuntu-latest
